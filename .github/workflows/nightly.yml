@@ -1,0 +1,30 @@
+name: Automated update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "55 23 * * *"
+
+permissions:
+  contents: write
+jobs:
+  auto_update:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.2.2
+        with:
+          submodules: true
+      - uses: ruby/setup-ruby@v1.207.0
+        with:
+          ruby-version: 3.4
+          bundler-cache: true
+      - name: Process benchmark data
+        run: ./bin/process_benchmark_data
+      - name: Commit changes
+        run: |
+          git config --global user.name 'RPR Auto-update'
+          git config --global user.email 'ar2em1s@users.noreply.github.com'
+          git commit --allow-empty -am "Auto-update $(date '+%Y-%m-%d')"
+          git push

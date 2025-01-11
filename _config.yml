@@ -1,0 +1,21 @@
+title: RPR
+url: ar2em1s.github.io
+baseurl: /rpr
+github_username: ar2em1s
+
+exclude:
+  - .github
+  - assets/css
+  - assets/js
+  - benchmark-data
+  - bin
+  - lib
+  - .gitignore
+  - .gitmodules
+  - .rubocop.yml
+  - .tool-versions
+  - LICENCE.txt
+  - package.json
+  - README.md
+  - tailwind.config.js
+  - yarn.lock

@@ -1,0 +1,31 @@
+{% for benchmark in site.data.benchmarks %}
+  <div>
+    <h1 id="{{ benchmark.name | slugify }}" class="py-3 text-5xl break-all font-semibold text-center sticky top-0 bg-gray-900 z-20">
+      <a href="#{{ benchmark.name | slugify }}">{{ benchmark.name }}</a>
+    </h1>
+    <div class="flex flex-col lg:flex-row gap-4">
+      {% for chart_group in benchmark.chart_groups %}
+        <div>
+          {% if benchmark.chart_groups.size > 1 %}
+            <h2 class="text-3xl font-bold text-center lg:sticky lg:top-0 lg:py-4 lg:z-20">
+          {% else %}
+            <h2 class="text-3xl font-bold text-center">
+          {% endif %}
+            {{ chart_group.platform }}
+          </h2>
+          <div class="flex flex-col gap-4">
+            {% for chart in chart_group.charts %}
+              <div
+                class="w-[95vw] lg:w-[48vw]"
+                data-controller="chart"
+                data-chart-title-value="{{ chart.title }}"
+                data-chart-dates-value='{{ chart.dates | jsonify }}'
+                data-chart-data-value='{{ chart.data | jsonify }}'>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}

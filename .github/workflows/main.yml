@@ -1,0 +1,36 @@
+name: Deploy
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  workflow_run:
+    workflows: [Automated update]
+    types:
+      - completed
+
+jobs:
+  github-pages:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.2.2
+      - uses: ruby/setup-ruby@v1.207.0
+        with:
+          ruby-version: 3.4
+          bundler-cache: true
+      - name: Setup Node
+        uses: actions/setup-node@v4.1.0
+        with:
+          node-version: 23.5
+      - run: yarn
+      - name: Build site
+        run: yarn build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4.0.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
