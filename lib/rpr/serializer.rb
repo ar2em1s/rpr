@@ -7,7 +7,6 @@ module Rpr
 
     def initialize(report)
       @report = report
-      @dates = nil
     end
 
     def benchmark
@@ -22,23 +21,17 @@ module Rpr
       report.type.to_s.sub("_", " ").capitalize
     end
 
-    def dates
-      @dates ||= report.rubies.each_value.map { |points| points.map(&:first) }.flatten.minmax
-        .map { |date| date.strftime(DATETIME_FORMAT) }
+    def benchmark_type
+      report.type
+    end
+
+    def anomalies
+      report.anomalies.map { |date| date.strftime(DATETIME_FORMAT) }
     end
 
     def data
       report.rubies.transform_values do |points|
-        points.map { |date, result| [date.strftime(DATETIME_FORMAT), (result / base_result).round(4)] }
-      end
-    end
-
-    private
-
-    def base_result
-      @base_result ||= begin
-        oldest_ruby_version = report.rubies.keys.select { |version| RUBY_VERSION_REGEXP.match?(version) }.min_by(&:to_f)
-        report.rubies[oldest_ruby_version].min_by(&:first).last
+        points.map { |date, result| [date.strftime(DATETIME_FORMAT), result] }
       end
     end
   end

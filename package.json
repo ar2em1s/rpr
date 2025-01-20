@@ -6,6 +6,7 @@
   "author": "ar2em1s <artemsheva0510@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "lint": "standard",
     "build": "npm-run-all --parallel build:* && bundle exec jekyll build",
     "build:css": "npx tailwindcss -i ./assets/css/index.css -o ./build/index.css --minify",
     "build:js": "esbuild assets/js/index.js --outfile=./build/index.js --loader:.wasm=binary --bundle --minify",
@@ -17,6 +18,7 @@
   "devDependencies": {
     "esbuild": "^0.24.2",
     "npm-run-all": "^4.1.5",
+    "standard": "^17.1.2",
     "tailwindcss": "^3.4.17"
   },
   "dependencies": {

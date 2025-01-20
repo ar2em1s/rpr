@@ -1,0 +1,40 @@
+<div
+  data-controller="settings"
+  class="bg-gray-900 w-full h-26 py-1 flex flex-col justify-center items-center sticky top-0 z-30"
+>
+  <div class="flex items-center justify-center">
+    <div class="p-2 flex gap-4">
+      <div>
+        <span>From:</span>
+        <input
+          type="date"
+          data-action="input->settings#save"
+          data-settings-target="from"
+          class="text-gray-900 px-2 py-1 rounded-md"
+        >
+      </div>
+
+      <div>
+        <span>To:</span>
+        <input
+          type="date"
+          data-action="input->settings#save"
+          data-settings-target="to"
+          class="text-gray-900 px-2 py-1 rounded-md"
+        >
+      </div>
+    </div>
+  </div>
+
+  <div>
+      <input
+        id="normalize"
+        type="checkbox"
+        checked="checked"
+        data-action="input->settings#save"
+        data-settings-target="normalize"
+        class="rounded-md cursor-pointer"
+      >
+      <label for="normalize" class="cursor-pointer">Normalize</label>
+  </div>
+</div>
