@@ -13,7 +13,7 @@ const CHART_TYPE_VALUE_FORMATTERS = {
   [CHART_TYPES.memory_usage]: (value) => Math.round(value / 1024 ** 2)
 }
 const PLOT_SETTINGS = {
-  normalized: {
+  relative: {
     tooltip: { valuePrefix: 'x', valueSuffix: undefined },
     yAxis: {
       labels: { format: 'x{text}', formatter: undefined },
@@ -67,8 +67,8 @@ export default class extends ApplicationController {
     this.updated = true
   }
 
-  applySettings ({ detail: { normalize = false, from = null, to = null } }) {
-    this.settings = { normalize, filter: { from, to } }
+  applySettings ({ detail: { relative = false, from = null, to = null } }) {
+    this.settings = { relative, filter: { from, to } }
     if (!this.chart || this.noneVisible()) {
       this.updated = false
       return
@@ -124,13 +124,13 @@ export default class extends ApplicationController {
     let data = this._filterData(this.dataValue)
     if (data.length === 0) return []
 
-    data = this.settings.normalize ? this._normalizeData(data) : this._formatData(data)
+    data = this.settings.relative ? this._normalizeData(data) : this._formatData(data)
 
     return data
   }
 
   _yAxisSettings () {
-    return PLOT_SETTINGS[this.settings.normalize ? 'normalized' : this.typeValue]
+    return PLOT_SETTINGS[this.settings.relative ? 'relative' : this.typeValue]
   }
 
   _updateChart () {
@@ -170,7 +170,9 @@ export default class extends ApplicationController {
 
                   >
                     <img
-                      src="/rpr/assets/img/icons/warning.svg" width="20"
+                      src="/rpr/assets/img/icons/warning.svg"
+                      width="20"
+                      class="cursor-pointer"
                       data-controller="tooltip-target"
                       data-tooltip-target-tooltip-outlet=".tooltip"
                     />

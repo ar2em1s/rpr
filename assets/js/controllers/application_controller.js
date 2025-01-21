@@ -5,7 +5,7 @@ export default class extends Controller {
     const urlParams = new URLSearchParams(window.location.search)
 
     return {
-      normalize: urlParams.get('normalize') === 'true',
+      relative: ['true', null].includes(urlParams.get('relative')),
       filter: {
         from: urlParams.get('from') || null,
         to: urlParams.get('to') || null

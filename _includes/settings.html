@@ -10,7 +10,7 @@
           type="date"
           data-action="input->settings#save"
           data-settings-target="from"
-          class="text-gray-900 px-2 py-1 rounded-md"
+          class="max-w-[45vw] text-gray-900 px-2 py-1 rounded-md"
         >
       </div>
 
@@ -20,7 +20,7 @@
           type="date"
           data-action="input->settings#save"
           data-settings-target="to"
-          class="text-gray-900 px-2 py-1 rounded-md"
+          class="max-w-[45vw] text-gray-900 px-2 py-1 rounded-md"
         >
       </div>
     </div>
@@ -28,13 +28,13 @@
 
   <div>
       <input
-        id="normalize"
+        id="relative"
         type="checkbox"
         checked="checked"
         data-action="input->settings#save"
-        data-settings-target="normalize"
+        data-settings-target="relative"
         class="rounded-md cursor-pointer"
       >
-      <label for="normalize" class="cursor-pointer">Normalize</label>
+      <label for="relative" class="cursor-pointer">Relative</label>
   </div>
 </div>

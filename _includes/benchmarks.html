@@ -1,7 +1,7 @@
 {% include anomaly_tooltip.html %}
 {% for benchmark in site.data.benchmarks %}
   <div id="{{ benchmark.name | slugify }}">
-    <h1 class="py-2 text-4xl break-all font-semibold text-center sticky top-28 sm:top-20 bg-gray-900 z-20">
+    <h1 class="py-2 text-4xl break-all font-semibold text-center sm:sticky md:top-20 bg-gray-900 z-20">
       <a href="#{{ benchmark.name | slugify }}">{{ benchmark.name }}</a>
     </h1>
     <div class="flex flex-col lg:flex-row gap-4">
@@ -17,7 +17,7 @@
           <div class="flex flex-col gap-4">
             {% for chart in chart_group.charts %}
               <div
-                class="w-[95vw] lg:w-[48vw] h-[50vh]"
+                class="w-[95vw] lg:w-[48vw]"
                 data-controller="chart"
                 data-action="settings:changed@window->chart#applySettings"
                 data-chart-title-value="{{ chart.title }}"
