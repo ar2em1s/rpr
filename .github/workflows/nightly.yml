@@ -14,12 +14,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.2.2
+      - uses: ruby/setup-ruby@v1.213.0
         with:
-          submodules: true
-      - uses: ruby/setup-ruby@v1.207.0
-        with:
-          ruby-version: 3.4
           bundler-cache: true
+      - name: Update benchmarks submodule
+        run: |
+          git submodule update --init --recursive
+          git submodule update --recursive --remote
       - name: Process benchmark data
         run: ./bin/process_benchmark_data
       - name: Commit changes

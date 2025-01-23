@@ -8,7 +8,7 @@ gem "csv", "~> 3.3.2"
 gem "base64", "~> 0.2.0"
 
 group :development do
-  gem "lefthook", "~> 1.10.9"
+  gem "lefthook", "~> 1.10.10"
   gem "pry", "~> 0.15.2"
   gem "standard", "~> 1.44.0"
 end
