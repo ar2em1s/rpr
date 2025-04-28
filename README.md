@@ -1,6 +1,6 @@
 # Ruby performance retrospective
-[![Deploy](https://github.com/ar2em1s/rpr/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/Ar2emis/yaso/actions/workflows/main.yml)
-[![GitHub license](https://img.shields.io/github/license/ar2em1s/rpr)](https://github.com/ar2em1s/rubexp/blob/main/LICENSE.txt)
+[![Deploy](https://github.com/ar2em1s/rpr/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/ar2em1s/rpr/actions/workflows/main.yml)
+[![GitHub license](https://img.shields.io/github/license/ar2em1s/rpr)](https://github.com/ar2em1s/rpr/blob/main/LICENSE.txt)
 
 Ruby performance historical data based on YJIT benchmarks.
 
