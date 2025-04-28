@@ -9,10 +9,10 @@
     "lint": "standard",
     "build": "npm-run-all --parallel build:* && bundle exec jekyll build",
     "build:css": "npx tailwindcss -i ./assets/css/index.css -o ./build/index.css --minify",
-    "build:js": "esbuild assets/js/index.js --outfile=./build/index.js --loader:.wasm=binary --bundle --minify",
-    "dev:jekyll": "bundle exec jekyll serve --incremental",
-    "dev:css": "npx tailwindcss -i ./assets/css/index.css -o ./build/index.css --minify",
-    "dev:js": "esbuild ./assets/js/index.js --outfile=./build/index.js --loader:.wasm=binary --bundle --minify",
+    "build:js": "esbuild assets/js/index.js --outfile=./build/index.js --bundle --minify",
+    "dev:jekyll": "bundle exec jekyll serve --incremental --livereload",
+    "dev:css": "npx tailwindcss -i ./assets/css/index.css -o ./build/index.css --watch",
+    "dev:js": "esbuild ./assets/js/index.js --outfile=./build/index.js --bundle --watch",
     "serve": "npm-run-all --parallel dev:*"
   },
   "devDependencies": {
