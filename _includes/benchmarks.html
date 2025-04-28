@@ -20,10 +20,7 @@
                 class="w-[95vw] lg:w-[48vw]"
                 data-controller="chart"
                 data-action="settings:changed@window->chart#applySettings"
-                data-chart-title-value="{{ chart.title }}"
-                data-chart-type-value="{{ chart.type }}"
-                data-chart-anomalies-value='{{ chart.anomalies | jsonify }}'
-                data-chart-data-value='{{ chart.data | jsonify }}'>
+                data-chart-data-url-value='{{ "data/" | append: chart.id | append: ".json" | relative_url }}'>
               </div>
             {% endfor %}
           </div>

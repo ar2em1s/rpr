@@ -1,0 +1,28 @@
+{
+  "id": "hexapdf_line_wrap_x86_64_execution_time",
+  "benchmark": "hexapdf_line_wrap",
+  "platform": "x86_64",
+  "title": "Execution time",
+  "benchmark_type": "execution_time",
+  "anomalies": [],
+  "data": {
+    "3.1": [
+      [
+        "2021-10-05",
+        2858.998392196372
+      ]
+    ],
+    "3.1 YJIT": [
+      [
+        "2021-10-05",
+        2250.034972652793
+      ]
+    ],
+    "3.0 MJIT": [
+      [
+        "2021-10-05",
+        2710.3252965956926
+      ]
+    ]
+  }
+}

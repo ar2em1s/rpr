@@ -49,6 +49,7 @@ export default class extends ApplicationController {
   static values = {
     title: String,
     type: String,
+    dataUrl: String,
     anomalies: Array,
     data: Object
   }
@@ -56,12 +57,20 @@ export default class extends ApplicationController {
   connect () {
     this.settings = this.defaultSettings
     this.updated = false
-    useIntersection(this, { rootMargin: '100% 0px 100% 0px' })
+    useIntersection(this, { rootMargin: '33% 0px 33% 0px' })
   }
 
-  appear () {
-    if (this.updated) return
-    if (!this.chart) this._buildChart()
+  async appear () {
+    if (this.updated || this.loading) return
+
+    if (!this.chart) {
+      this.loading = true
+
+      await this._fetchData()
+      this._buildChart()
+
+      this.loading = false
+    }
 
     this._updateChart()
     this.updated = true
@@ -172,6 +181,7 @@ export default class extends ApplicationController {
                     <img
                       src="/rpr/assets/img/icons/warning.svg"
                       width="20"
+                      height="20"
                       class="cursor-pointer"
                       data-controller="tooltip-target"
                       data-tooltip-target-tooltip-outlet=".tooltip"
@@ -191,5 +201,15 @@ export default class extends ApplicationController {
 
       series: []
     })
+  }
+
+  async _fetchData () {
+    const response = await fetch(this.dataUrlValue)
+    const benchmark = await response.json()
+
+    this.titleValue = benchmark.title
+    this.typeValue = benchmark.benchmark_type
+    this.anomaliesValue = benchmark.anomalies
+    this.dataValue = benchmark.data
   }
 }

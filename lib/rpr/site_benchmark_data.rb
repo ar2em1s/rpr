@@ -10,9 +10,7 @@ module Rpr
       benchmark = benchmarks[serializer.benchmark] ||= {name: serializer.benchmark.to_s, chart_groups: {}}
       chart_group = benchmark[:chart_groups][serializer.platform] ||= []
 
-      chart_group << {
-        title: serializer.title, type: serializer.benchmark_type, anomalies: serializer.anomalies, data: serializer.data
-      }
+      chart_group << {id: serializer.id}
     end
 
     def to_h

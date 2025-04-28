@@ -1,9 +1,13 @@
 <div class="px-3 py-1 flex items-center justify-between">
   <a href="{{ '/' | relative_url }}" class="w-fit text-2xl flex items-center">
-    <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="Logo" class="h-16 sm:h-12">
+    <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="Logo" height="48" width="48" class="h-16 sm:h-12">
     <span>{{ site.title }}</span>
   </a>
-  <a href="https://github.com/ar2em1s/rpr">
-    <img src="https://img.shields.io/badge/github-ar2em1s%2Frpr-red" alt="Github">
+  <a
+    href="https://github.com/ar2em1s/rpr"
+    aria-label="Link to the project Github"
+    class="border-2 rounded-md border-stone-600 dark:border-stone-600 hover:scale-110 duration-300"
+  >
+    {% include shared/icons/github_badge.svg %}
   </a>
 </div>

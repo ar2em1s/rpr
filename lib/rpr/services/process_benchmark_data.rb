@@ -3,7 +3,8 @@ module Rpr
     class ProcessBenchmarkData < Base
       FILES_PATH = "benchmark-data/raw_benchmark_data/**/*.json"
       IGNORE_FILE_REGEXP = /yjit_stats|yjit_rust_proto/
-      BENCHMARKS_DATA_PATH = "_data/benchmarks.json"
+      BENCHMARKS_DATA_PATH = "data"
+      SITE_DATA_PATH = "_data/benchmarks.json"
 
       attr_reader :site_data, :runs, :reports, :serializers
 
@@ -16,6 +17,7 @@ module Rpr
         group_data_in_reports
         serialize_reports
         collect_site_data
+        save_benchmark_data
         save_site_data
       end
 
@@ -46,8 +48,14 @@ module Rpr
         serializers.each { |serializer| site_data.add_chart(serializer) }
       end
 
+      def save_benchmark_data
+        serializers.each do |serializer|
+          File.binwrite(File.join(BENCHMARKS_DATA_PATH, "#{serializer.id}.json"), JSON.pretty_generate(serializer.to_h))
+        end
+      end
+
       def save_site_data
-        File.binwrite(BENCHMARKS_DATA_PATH, JSON.pretty_generate(site_data.to_h))
+        File.binwrite(SITE_DATA_PATH, JSON.pretty_generate(site_data.to_h))
       end
     end
   end

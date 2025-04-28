@@ -9,6 +9,10 @@ module Rpr
       @report = report
     end
 
+    def id
+      "#{benchmark}_#{platform}_#{benchmark_type}"
+    end
+
     def benchmark
       report.name
     end
@@ -33,6 +37,18 @@ module Rpr
       report.rubies.transform_values do |points|
         points.map { |date, result| [date.strftime(DATETIME_FORMAT), result] }
       end
+    end
+
+    def to_h
+      {
+        id: id,
+        benchmark: benchmark,
+        platform: platform,
+        title: title,
+        benchmark_type: benchmark_type,
+        anomalies: anomalies,
+        data: data
+      }
     end
   end
 end

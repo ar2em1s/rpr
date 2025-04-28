@@ -1,12 +1,16 @@
 title: RPR
-url: ar2em1s.github.io
+url: https://ar2em1s.github.io
 baseurl: /rpr
 github_username: ar2em1s
+
+plugins:
+  - jekyll-sitemap
 
 exclude:
   - .github
   - assets/css
   - assets/js
+  - build/index.css
   - benchmark-data
   - bin
   - lib

@@ -1,0 +1,28 @@
+{
+  "id": "hexapdf_line_wrap_x86_64_memory_usage",
+  "benchmark": "hexapdf_line_wrap",
+  "platform": "x86_64",
+  "title": "Memory usage",
+  "benchmark_type": "memory_usage",
+  "anomalies": [],
+  "data": {
+    "3.1": [
+      [
+        "2021-10-05",
+        317767680.0
+      ]
+    ],
+    "3.1 YJIT": [
+      [
+        "2021-10-05",
+        704933888.0
+      ]
+    ],
+    "3.0 MJIT": [
+      [
+        "2021-10-05",
+        297885696.0
+      ]
+    ]
+  }
+}

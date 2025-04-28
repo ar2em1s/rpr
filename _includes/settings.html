@@ -5,8 +5,9 @@
   <div class="flex items-center justify-center">
     <div class="p-2 flex gap-4">
       <div>
-        <span>From:</span>
+        <label for="from">From:</span>
         <input
+          id="from"
           type="date"
           data-action="input->settings#save"
           data-settings-target="from"
@@ -15,8 +16,9 @@
       </div>
 
       <div>
-        <span>To:</span>
+        <label for="to">To:</label>
         <input
+          id="to"
           type="date"
           data-action="input->settings#save"
           data-settings-target="to"
