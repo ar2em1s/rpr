@@ -6,13 +6,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "30k_ifelse_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "30k_ifelse_aarch64_memory_usage"
           }
         ]
@@ -21,13 +17,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "30k_ifelse_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "30k_ifelse_x86_64_memory_usage"
           }
         ]
@@ -41,13 +33,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "30k_methods_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "30k_methods_aarch64_memory_usage"
           }
         ]
@@ -56,13 +44,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "30k_methods_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "30k_methods_x86_64_memory_usage"
           }
         ]
@@ -76,13 +60,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "activerecord_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "activerecord_aarch64_memory_usage"
           }
         ]
@@ -91,13 +71,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "activerecord_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "activerecord_x86_64_memory_usage"
           }
         ]
@@ -111,13 +87,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "binarytrees_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "binarytrees_aarch64_memory_usage"
           }
         ]
@@ -126,13 +98,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "binarytrees_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "binarytrees_x86_64_memory_usage"
           }
         ]
@@ -146,13 +114,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "blurhash_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "blurhash_aarch64_memory_usage"
           }
         ]
@@ -161,13 +125,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "blurhash_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "blurhash_x86_64_memory_usage"
           }
         ]
@@ -181,13 +141,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "cfunc_itself_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "cfunc_itself_aarch64_memory_usage"
           }
         ]
@@ -196,13 +152,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "cfunc_itself_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "cfunc_itself_x86_64_memory_usage"
           }
         ]
@@ -216,13 +168,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "chunky_png_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "chunky_png_aarch64_memory_usage"
           }
         ]
@@ -231,13 +179,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "chunky_png_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "chunky_png_x86_64_memory_usage"
           }
         ]
@@ -251,13 +195,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "discourse_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "discourse_x86_64_memory_usage"
           }
         ]
@@ -271,13 +211,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "erubi_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "erubi_aarch64_memory_usage"
           }
         ]
@@ -286,13 +222,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "erubi_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "erubi_x86_64_memory_usage"
           }
         ]
@@ -306,13 +238,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "erubi_rails_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "erubi_rails_aarch64_memory_usage"
           }
         ]
@@ -321,13 +249,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "erubi_rails_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "erubi_rails_x86_64_memory_usage"
           }
         ]
@@ -341,13 +265,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "etanni_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "etanni_aarch64_memory_usage"
           }
         ]
@@ -356,13 +276,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "etanni_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "etanni_x86_64_memory_usage"
           }
         ]
@@ -376,13 +292,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "fannkuchredux_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "fannkuchredux_aarch64_memory_usage"
           }
         ]
@@ -391,13 +303,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "fannkuchredux_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "fannkuchredux_x86_64_memory_usage"
           }
         ]
@@ -411,13 +319,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "fib_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "fib_aarch64_memory_usage"
           }
         ]
@@ -426,13 +330,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "fib_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "fib_x86_64_memory_usage"
           }
         ]
@@ -446,13 +346,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "fluentd_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "fluentd_aarch64_memory_usage"
           }
         ]
@@ -461,13 +357,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "fluentd_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "fluentd_x86_64_memory_usage"
           }
         ]
@@ -481,13 +373,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "getivar_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "getivar_aarch64_memory_usage"
           }
         ]
@@ -496,13 +384,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "getivar_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "getivar_x86_64_memory_usage"
           }
         ]
@@ -516,13 +400,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "graphql_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "graphql_aarch64_memory_usage"
           }
         ]
@@ -531,13 +411,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "graphql_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "graphql_x86_64_memory_usage"
           }
         ]
@@ -551,13 +427,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "graphql_native_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "graphql_native_aarch64_memory_usage"
           }
         ]
@@ -566,13 +438,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "graphql_native_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "graphql_native_x86_64_memory_usage"
           }
         ]
@@ -586,13 +454,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "hexapdf_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "hexapdf_aarch64_memory_usage"
           }
         ]
@@ -601,13 +465,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "hexapdf_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "hexapdf_x86_64_memory_usage"
           }
         ]
@@ -621,13 +481,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "hexapdf_line_wrap_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "hexapdf_line_wrap_x86_64_memory_usage"
           }
         ]
@@ -641,13 +497,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "jekyll_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "jekyll_x86_64_memory_usage"
           }
         ]
@@ -661,13 +513,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "keyword_args_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "keyword_args_aarch64_memory_usage"
           }
         ]
@@ -676,13 +524,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "keyword_args_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "keyword_args_x86_64_memory_usage"
           }
         ]
@@ -696,13 +540,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "lee_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "lee_aarch64_memory_usage"
           }
         ]
@@ -711,13 +551,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "lee_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "lee_x86_64_memory_usage"
           }
         ]
@@ -731,13 +567,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "liquid_c_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "liquid_c_aarch64_memory_usage"
           }
         ]
@@ -746,13 +578,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "liquid_c_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "liquid_c_x86_64_memory_usage"
           }
         ]
@@ -766,13 +594,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "liquid_compile_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "liquid_compile_aarch64_memory_usage"
           }
         ]
@@ -781,13 +605,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "liquid_compile_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "liquid_compile_x86_64_memory_usage"
           }
         ]
@@ -801,13 +621,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "liquid_render_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "liquid_render_aarch64_memory_usage"
           }
         ]
@@ -816,13 +632,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "liquid_render_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "liquid_render_x86_64_memory_usage"
           }
         ]
@@ -836,13 +648,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "lobsters_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "lobsters_aarch64_memory_usage"
           }
         ]
@@ -851,13 +659,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "lobsters_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "lobsters_x86_64_memory_usage"
           }
         ]
@@ -871,13 +675,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "loops_times_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "loops_times_aarch64_memory_usage"
           }
         ]
@@ -886,13 +686,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "loops_times_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "loops_times_x86_64_memory_usage"
           }
         ]
@@ -906,13 +702,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "mail_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "mail_aarch64_memory_usage"
           }
         ]
@@ -921,13 +713,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "mail_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "mail_x86_64_memory_usage"
           }
         ]
@@ -941,13 +729,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "matmul_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "matmul_aarch64_memory_usage"
           }
         ]
@@ -956,13 +740,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "matmul_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "matmul_x86_64_memory_usage"
           }
         ]
@@ -976,13 +756,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "nbody_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "nbody_aarch64_memory_usage"
           }
         ]
@@ -991,13 +767,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "nbody_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "nbody_x86_64_memory_usage"
           }
         ]
@@ -1011,13 +783,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "nqueens_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "nqueens_aarch64_memory_usage"
           }
         ]
@@ -1026,13 +794,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "nqueens_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "nqueens_x86_64_memory_usage"
           }
         ]
@@ -1046,13 +810,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "object_new_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "object_new_aarch64_memory_usage"
           }
         ]
@@ -1061,13 +821,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "object_new_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "object_new_x86_64_memory_usage"
           }
         ]
@@ -1081,13 +837,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "optcarrot_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "optcarrot_aarch64_memory_usage"
           }
         ]
@@ -1096,13 +848,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "optcarrot_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "optcarrot_x86_64_memory_usage"
           }
         ]
@@ -1116,13 +864,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "protoboeuf_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "protoboeuf_aarch64_memory_usage"
           }
         ]
@@ -1131,13 +875,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "protoboeuf_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "protoboeuf_x86_64_memory_usage"
           }
         ]
@@ -1151,13 +891,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "protoboeuf_encode_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "protoboeuf_encode_aarch64_memory_usage"
           }
         ]
@@ -1166,13 +902,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "protoboeuf_encode_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "protoboeuf_encode_x86_64_memory_usage"
           }
         ]
@@ -1186,13 +918,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "psych_load_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "psych_load_aarch64_memory_usage"
           }
         ]
@@ -1201,13 +929,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "psych_load_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "psych_load_x86_64_memory_usage"
           }
         ]
@@ -1221,13 +945,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "rack_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "rack_aarch64_memory_usage"
           }
         ]
@@ -1236,13 +956,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "rack_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "rack_x86_64_memory_usage"
           }
         ]
@@ -1256,13 +972,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "railsbench_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "railsbench_aarch64_memory_usage"
           }
         ]
@@ -1271,13 +983,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "railsbench_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "railsbench_x86_64_memory_usage"
           }
         ]
@@ -1291,13 +999,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "respond_to_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "respond_to_aarch64_memory_usage"
           }
         ]
@@ -1306,13 +1010,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "respond_to_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "respond_to_x86_64_memory_usage"
           }
         ]
@@ -1326,13 +1026,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "rubocop_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "rubocop_aarch64_memory_usage"
           }
         ]
@@ -1341,13 +1037,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "rubocop_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "rubocop_x86_64_memory_usage"
           }
         ]
@@ -1361,13 +1053,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "ruby_json_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "ruby_json_aarch64_memory_usage"
           }
         ]
@@ -1376,13 +1064,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "ruby_json_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "ruby_json_x86_64_memory_usage"
           }
         ]
@@ -1396,13 +1080,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "ruby_lsp_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "ruby_lsp_aarch64_memory_usage"
           }
         ]
@@ -1411,13 +1091,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "ruby_lsp_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "ruby_lsp_x86_64_memory_usage"
           }
         ]
@@ -1431,13 +1107,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "ruby_xor_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "ruby_xor_aarch64_memory_usage"
           }
         ]
@@ -1446,13 +1118,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "ruby_xor_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "ruby_xor_x86_64_memory_usage"
           }
         ]
@@ -1466,13 +1134,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "rubyboy_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "rubyboy_aarch64_memory_usage"
           }
         ]
@@ -1481,13 +1145,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "rubyboy_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "rubyboy_x86_64_memory_usage"
           }
         ]
@@ -1501,13 +1161,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "rubykon_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "rubykon_aarch64_memory_usage"
           }
         ]
@@ -1516,13 +1172,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "rubykon_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "rubykon_x86_64_memory_usage"
           }
         ]
@@ -1536,13 +1188,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "sequel_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "sequel_aarch64_memory_usage"
           }
         ]
@@ -1551,13 +1199,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "sequel_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "sequel_x86_64_memory_usage"
           }
         ]
@@ -1571,13 +1215,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "setivar_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "setivar_aarch64_memory_usage"
           }
         ]
@@ -1586,13 +1226,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "setivar_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "setivar_x86_64_memory_usage"
           }
         ]
@@ -1606,13 +1242,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "setivar_object_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "setivar_object_aarch64_memory_usage"
           }
         ]
@@ -1621,13 +1253,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "setivar_object_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "setivar_object_x86_64_memory_usage"
           }
         ]
@@ -1641,13 +1269,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "setivar_young_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "setivar_young_aarch64_memory_usage"
           }
         ]
@@ -1656,13 +1280,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "setivar_young_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "setivar_young_x86_64_memory_usage"
           }
         ]
@@ -1676,13 +1296,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "setivar_young_object_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "setivar_young_object_aarch64_memory_usage"
           }
         ]
@@ -1691,13 +1307,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "setivar_young_object_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "setivar_young_object_x86_64_memory_usage"
           }
         ]
@@ -1711,13 +1323,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "str_concat_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "str_concat_aarch64_memory_usage"
           }
         ]
@@ -1726,13 +1334,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "str_concat_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "str_concat_x86_64_memory_usage"
           }
         ]
@@ -1746,13 +1350,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "sudoku_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "sudoku_aarch64_memory_usage"
           }
         ]
@@ -1761,13 +1361,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "sudoku_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "sudoku_x86_64_memory_usage"
           }
         ]
@@ -1781,13 +1377,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "throw_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "throw_aarch64_memory_usage"
           }
         ]
@@ -1796,13 +1388,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "throw_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "throw_x86_64_memory_usage"
           }
         ]
@@ -1816,13 +1404,9 @@
         "platform": "aarch64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "tinygql_aarch64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "tinygql_aarch64_memory_usage"
           }
         ]
@@ -1831,13 +1415,9 @@
         "platform": "x86_64",
         "charts": [
           {
-            "title": "Execution time",
-            "type": "execution_time",
             "id": "tinygql_x86_64_execution_time"
           },
           {
-            "title": "Memory usage",
-            "type": "memory_usage",
             "id": "tinygql_x86_64_memory_usage"
           }
         ]
