@@ -81,6 +81,33 @@
     ]
   },
   {
+    "name": "attr_accessor",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "attr_accessor_aarch64_execution_time"
+          },
+          {
+            "id": "attr_accessor_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "attr_accessor_x86_64_execution_time"
+          },
+          {
+            "id": "attr_accessor_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "binarytrees",
     "chart_groups": [
       {
