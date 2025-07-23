@@ -1344,6 +1344,33 @@
     ]
   },
   {
+    "name": "shipit",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "shipit_aarch64_execution_time"
+          },
+          {
+            "id": "shipit_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "shipit_x86_64_execution_time"
+          },
+          {
+            "id": "shipit_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "str_concat",
     "chart_groups": [
       {
