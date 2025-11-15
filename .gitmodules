@@ -1,4 +1,0 @@
-[submodule "benchmark-data"]
-	path = benchmark-data
-	url = https://github.com/yjit-raw/benchmark-data.git
-	branch = main
