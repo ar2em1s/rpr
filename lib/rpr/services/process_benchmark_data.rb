@@ -2,7 +2,7 @@ module Rpr
   module Services
     class ProcessBenchmarkData < Base
       FILES_PATH = "benchmark-data/raw_benchmark_data/**/*.json"
-      IGNORE_FILE_REGEXP = /yjit_stats|yjit_rust_proto/
+      IGNORE_FILE_REGEXP = /yjit_stats|yjit_rust_proto|results-ruby/
       BENCHMARKS_DATA_PATH = "data"
       SITE_DATA_PATH = "_data/benchmarks.json"
 

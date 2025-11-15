@@ -1,5 +1,6 @@
 require "date"
 require "json"
+require "yaml"
 
 require_relative "rpr/benchmark"
 require_relative "rpr/run"

@@ -1,0 +1,40 @@
+{
+  "id": "knucleotide_aarch64_memory_usage",
+  "benchmark": "knucleotide",
+  "platform": "aarch64",
+  "title": "Memory usage",
+  "benchmark_type": "memory_usage",
+  "anomalies": [],
+  "data": {
+    "3.4": [
+      [
+        "2025-11-15",
+        14147584.0
+      ]
+    ],
+    "3.4 YJIT": [
+      [
+        "2025-11-15",
+        14667776.0
+      ]
+    ],
+    "4.0": [
+      [
+        "2025-11-15",
+        15147008.0
+      ]
+    ],
+    "4.0 YJIT": [
+      [
+        "2025-11-15",
+        15806464.0
+      ]
+    ],
+    "4.0 ZJIT": [
+      [
+        "2025-11-15",
+        15947776.0
+      ]
+    ]
+  }
+}

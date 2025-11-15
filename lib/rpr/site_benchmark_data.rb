@@ -1,5 +1,8 @@
 module Rpr
   class SiteBenchmarkData
+    RUBY_BENCHMARKS_CONFIG_PATH = "ruby-bench/benchmarks.yml"
+    HEADLINE_CATEGORY = "headline"
+
     attr_reader :benchmarks
 
     def initialize
@@ -14,9 +17,12 @@ module Rpr
     end
 
     def to_h
-      benchmarks.sort_by(&:first).map do |name, benchmark_data|
+      ruby_benchmark_names.filter_map do |name|
+        next if benchmarks[name].nil?
+
+        benchmark_data = benchmarks[name]
         {
-          name: name,
+          name: benchmark_data[:name],
           chart_groups: benchmark_data[:chart_groups].map do |platform, charts|
             {
               platform: platform,
@@ -24,7 +30,13 @@ module Rpr
             }
           end
         }
-      end
+      end.sort_by { |benchmark| benchmark[:headline] ? 0 : 1 }
+    end
+
+    private
+
+    def ruby_benchmark_names
+      YAML.load_file(RUBY_BENCHMARKS_CONFIG_PATH, symbolize_names: true).keys
     end
   end
 end

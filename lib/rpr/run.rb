@@ -4,6 +4,7 @@ module Rpr
     PLATFORM_REGEXP = /(aarch64|x86_64)/
     DATETIME_REGEXP = /(\d{4}-\d{2}-\d{2}-\d{6})/
     YJIT_FILE_FLAG = /with_yjit|ruby_yjit|yjit_rust/
+    ZJIT_FILE_FLAG = /zjit/
     MJIT_FILE_FLAG = /with_mjit/
     DATETIME_FORMAT = "%Y-%m-%d-%H%M%S"
 
@@ -62,6 +63,7 @@ module Rpr
 
       @jit_type = case file_path
       when YJIT_FILE_FLAG then :yjit
+      when ZJIT_FILE_FLAG then :zjit
       when MJIT_FILE_FLAG then :mjit
       end
     end

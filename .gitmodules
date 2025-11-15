@@ -1,0 +1,8 @@
+[submodule "benchmark-data"]
+	path = benchmark-data
+	url = git@github.com:rubybench/benchmark-data.git
+	branch = main
+[submodule "ruby-bench"]
+	path = ruby-bench
+	url = git@github.com:ruby/ruby-bench.git
+	branch = main

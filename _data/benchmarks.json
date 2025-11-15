@@ -1,59 +1,5 @@
 [
   {
-    "name": "30k_ifelse",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "30k_ifelse_aarch64_execution_time"
-          },
-          {
-            "id": "30k_ifelse_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "30k_ifelse_x86_64_execution_time"
-          },
-          {
-            "id": "30k_ifelse_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "30k_methods",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "30k_methods_aarch64_execution_time"
-          },
-          {
-            "id": "30k_methods_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "30k_methods_x86_64_execution_time"
-          },
-          {
-            "id": "30k_methods_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "activerecord",
     "chart_groups": [
       {
@@ -81,16 +27,16 @@
     ]
   },
   {
-    "name": "attr_accessor",
+    "name": "hexapdf",
     "chart_groups": [
       {
         "platform": "aarch64",
         "charts": [
           {
-            "id": "attr_accessor_aarch64_execution_time"
+            "id": "hexapdf_aarch64_execution_time"
           },
           {
-            "id": "attr_accessor_aarch64_memory_usage"
+            "id": "hexapdf_aarch64_memory_usage"
           }
         ]
       },
@@ -98,10 +44,172 @@
         "platform": "x86_64",
         "charts": [
           {
-            "id": "attr_accessor_x86_64_execution_time"
+            "id": "hexapdf_x86_64_execution_time"
           },
           {
-            "id": "attr_accessor_x86_64_memory_usage"
+            "id": "hexapdf_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "lobsters",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "lobsters_aarch64_execution_time"
+          },
+          {
+            "id": "lobsters_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "lobsters_x86_64_execution_time"
+          },
+          {
+            "id": "lobsters_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "mail",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "mail_aarch64_execution_time"
+          },
+          {
+            "id": "mail_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "mail_x86_64_execution_time"
+          },
+          {
+            "id": "mail_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "railsbench",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "railsbench_aarch64_execution_time"
+          },
+          {
+            "id": "railsbench_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "railsbench_x86_64_execution_time"
+          },
+          {
+            "id": "railsbench_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "rubocop",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "rubocop_aarch64_execution_time"
+          },
+          {
+            "id": "rubocop_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "rubocop_x86_64_execution_time"
+          },
+          {
+            "id": "rubocop_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "sequel",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "sequel_aarch64_execution_time"
+          },
+          {
+            "id": "sequel_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "sequel_x86_64_execution_time"
+          },
+          {
+            "id": "sequel_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "shipit",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "shipit_aarch64_execution_time"
+          },
+          {
+            "id": "shipit_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "shipit_x86_64_execution_time"
+          },
+          {
+            "id": "shipit_x86_64_memory_usage"
           }
         ]
       }
@@ -162,76 +270,6 @@
     ]
   },
   {
-    "name": "cfunc_itself",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "cfunc_itself_aarch64_execution_time"
-          },
-          {
-            "id": "cfunc_itself_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "cfunc_itself_x86_64_execution_time"
-          },
-          {
-            "id": "cfunc_itself_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "chunky_png",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "chunky_png_aarch64_execution_time"
-          },
-          {
-            "id": "chunky_png_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "chunky_png_x86_64_execution_time"
-          },
-          {
-            "id": "chunky_png_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "discourse",
-    "chart_groups": [
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "discourse_x86_64_execution_time"
-          },
-          {
-            "id": "discourse_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "erubi",
     "chart_groups": [
       {
@@ -253,33 +291,6 @@
           },
           {
             "id": "erubi_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "erubi_rails",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "erubi_rails_aarch64_execution_time"
-          },
-          {
-            "id": "erubi_rails_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "erubi_rails_x86_64_execution_time"
-          },
-          {
-            "id": "erubi_rails_x86_64_memory_usage"
           }
         ]
       }
@@ -340,33 +351,6 @@
     ]
   },
   {
-    "name": "fib",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "fib_aarch64_execution_time"
-          },
-          {
-            "id": "fib_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "fib_x86_64_execution_time"
-          },
-          {
-            "id": "fib_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "fluentd",
     "chart_groups": [
       {
@@ -388,33 +372,6 @@
           },
           {
             "id": "fluentd_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "getivar",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "getivar_aarch64_execution_time"
-          },
-          {
-            "id": "getivar_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "getivar_x86_64_execution_time"
-          },
-          {
-            "id": "getivar_x86_64_memory_usage"
           }
         ]
       }
@@ -448,16 +405,16 @@
     ]
   },
   {
-    "name": "graphql_native",
+    "name": "knucleotide",
     "chart_groups": [
       {
         "platform": "aarch64",
         "charts": [
           {
-            "id": "graphql_native_aarch64_execution_time"
+            "id": "knucleotide_aarch64_execution_time"
           },
           {
-            "id": "graphql_native_aarch64_memory_usage"
+            "id": "knucleotide_aarch64_memory_usage"
           }
         ]
       },
@@ -465,96 +422,10 @@
         "platform": "x86_64",
         "charts": [
           {
-            "id": "graphql_native_x86_64_execution_time"
+            "id": "knucleotide_x86_64_execution_time"
           },
           {
-            "id": "graphql_native_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "hexapdf",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "hexapdf_aarch64_execution_time"
-          },
-          {
-            "id": "hexapdf_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "hexapdf_x86_64_execution_time"
-          },
-          {
-            "id": "hexapdf_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "hexapdf_line_wrap",
-    "chart_groups": [
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "hexapdf_line_wrap_x86_64_execution_time"
-          },
-          {
-            "id": "hexapdf_line_wrap_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "jekyll",
-    "chart_groups": [
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "jekyll_x86_64_execution_time"
-          },
-          {
-            "id": "jekyll_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "keyword_args",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "keyword_args_aarch64_execution_time"
-          },
-          {
-            "id": "keyword_args_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "keyword_args_x86_64_execution_time"
-          },
-          {
-            "id": "keyword_args_x86_64_memory_usage"
+            "id": "knucleotide_x86_64_memory_usage"
           }
         ]
       }
@@ -582,168 +453,6 @@
           },
           {
             "id": "lee_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "liquid_c",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "liquid_c_aarch64_execution_time"
-          },
-          {
-            "id": "liquid_c_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "liquid_c_x86_64_execution_time"
-          },
-          {
-            "id": "liquid_c_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "liquid_compile",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "liquid_compile_aarch64_execution_time"
-          },
-          {
-            "id": "liquid_compile_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "liquid_compile_x86_64_execution_time"
-          },
-          {
-            "id": "liquid_compile_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "liquid_render",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "liquid_render_aarch64_execution_time"
-          },
-          {
-            "id": "liquid_render_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "liquid_render_x86_64_execution_time"
-          },
-          {
-            "id": "liquid_render_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "lobsters",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "lobsters_aarch64_execution_time"
-          },
-          {
-            "id": "lobsters_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "lobsters_x86_64_execution_time"
-          },
-          {
-            "id": "lobsters_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "loops_times",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "loops_times_aarch64_execution_time"
-          },
-          {
-            "id": "loops_times_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "loops_times_x86_64_execution_time"
-          },
-          {
-            "id": "loops_times_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "mail",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "mail_aarch64_execution_time"
-          },
-          {
-            "id": "mail_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "mail_x86_64_execution_time"
-          },
-          {
-            "id": "mail_x86_64_memory_usage"
           }
         ]
       }
@@ -831,33 +540,6 @@
     ]
   },
   {
-    "name": "object_new",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "object_new_aarch64_execution_time"
-          },
-          {
-            "id": "object_new_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "object_new_x86_64_execution_time"
-          },
-          {
-            "id": "object_new_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "optcarrot",
     "chart_groups": [
       {
@@ -912,60 +594,6 @@
     ]
   },
   {
-    "name": "protoboeuf_encode",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "protoboeuf_encode_aarch64_execution_time"
-          },
-          {
-            "id": "protoboeuf_encode_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "protoboeuf_encode_x86_64_execution_time"
-          },
-          {
-            "id": "protoboeuf_encode_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "psych_load",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "psych_load_aarch64_execution_time"
-          },
-          {
-            "id": "psych_load_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "psych_load_x86_64_execution_time"
-          },
-          {
-            "id": "psych_load_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "rack",
     "chart_groups": [
       {
@@ -987,168 +615,6 @@
           },
           {
             "id": "rack_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "railsbench",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "railsbench_aarch64_execution_time"
-          },
-          {
-            "id": "railsbench_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "railsbench_x86_64_execution_time"
-          },
-          {
-            "id": "railsbench_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "respond_to",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "respond_to_aarch64_execution_time"
-          },
-          {
-            "id": "respond_to_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "respond_to_x86_64_execution_time"
-          },
-          {
-            "id": "respond_to_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "rubocop",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "rubocop_aarch64_execution_time"
-          },
-          {
-            "id": "rubocop_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "rubocop_x86_64_execution_time"
-          },
-          {
-            "id": "rubocop_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "ruby_json",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "ruby_json_aarch64_execution_time"
-          },
-          {
-            "id": "ruby_json_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "ruby_json_x86_64_execution_time"
-          },
-          {
-            "id": "ruby_json_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "ruby_lsp",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "ruby_lsp_aarch64_execution_time"
-          },
-          {
-            "id": "ruby_lsp_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "ruby_lsp_x86_64_execution_time"
-          },
-          {
-            "id": "ruby_lsp_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "ruby_xor",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "ruby_xor_aarch64_execution_time"
-          },
-          {
-            "id": "ruby_xor_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "ruby_xor_x86_64_execution_time"
-          },
-          {
-            "id": "ruby_xor_x86_64_memory_usage"
           }
         ]
       }
@@ -1209,16 +675,16 @@
     ]
   },
   {
-    "name": "sequel",
+    "name": "sudoku",
     "chart_groups": [
       {
         "platform": "aarch64",
         "charts": [
           {
-            "id": "sequel_aarch64_execution_time"
+            "id": "sudoku_aarch64_execution_time"
           },
           {
-            "id": "sequel_aarch64_memory_usage"
+            "id": "sudoku_aarch64_memory_usage"
           }
         ]
       },
@@ -1226,10 +692,361 @@
         "platform": "x86_64",
         "charts": [
           {
-            "id": "sequel_x86_64_execution_time"
+            "id": "sudoku_x86_64_execution_time"
           },
           {
-            "id": "sequel_x86_64_memory_usage"
+            "id": "sudoku_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "tinygql",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "tinygql_aarch64_execution_time"
+          },
+          {
+            "id": "tinygql_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "tinygql_x86_64_execution_time"
+          },
+          {
+            "id": "tinygql_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "30k_ifelse",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "30k_ifelse_aarch64_execution_time"
+          },
+          {
+            "id": "30k_ifelse_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "30k_ifelse_x86_64_execution_time"
+          },
+          {
+            "id": "30k_ifelse_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "30k_methods",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "30k_methods_aarch64_execution_time"
+          },
+          {
+            "id": "30k_methods_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "30k_methods_x86_64_execution_time"
+          },
+          {
+            "id": "30k_methods_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "attr_accessor",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "attr_accessor_aarch64_execution_time"
+          },
+          {
+            "id": "attr_accessor_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "attr_accessor_x86_64_execution_time"
+          },
+          {
+            "id": "attr_accessor_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "cfunc_itself",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "cfunc_itself_aarch64_execution_time"
+          },
+          {
+            "id": "cfunc_itself_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "cfunc_itself_x86_64_execution_time"
+          },
+          {
+            "id": "cfunc_itself_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "send_cfunc_block",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "send_cfunc_block_aarch64_execution_time"
+          },
+          {
+            "id": "send_cfunc_block_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "send_cfunc_block_x86_64_execution_time"
+          },
+          {
+            "id": "send_cfunc_block_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "send_rubyfunc_block",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "send_rubyfunc_block_aarch64_execution_time"
+          },
+          {
+            "id": "send_rubyfunc_block_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "send_rubyfunc_block_x86_64_execution_time"
+          },
+          {
+            "id": "send_rubyfunc_block_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "send_bmethod",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "send_bmethod_aarch64_execution_time"
+          },
+          {
+            "id": "send_bmethod_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "send_bmethod_x86_64_execution_time"
+          },
+          {
+            "id": "send_bmethod_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fib",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "fib_aarch64_execution_time"
+          },
+          {
+            "id": "fib_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "fib_x86_64_execution_time"
+          },
+          {
+            "id": "fib_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "getivar",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "getivar_aarch64_execution_time"
+          },
+          {
+            "id": "getivar_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "getivar_x86_64_execution_time"
+          },
+          {
+            "id": "getivar_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "structaref",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "structaref_aarch64_execution_time"
+          },
+          {
+            "id": "structaref_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "structaref_x86_64_execution_time"
+          },
+          {
+            "id": "structaref_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "keyword_args",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "keyword_args_aarch64_execution_time"
+          },
+          {
+            "id": "keyword_args_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "keyword_args_x86_64_execution_time"
+          },
+          {
+            "id": "keyword_args_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "respond_to",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "respond_to_aarch64_execution_time"
+          },
+          {
+            "id": "respond_to_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "respond_to_x86_64_execution_time"
+          },
+          {
+            "id": "respond_to_x86_64_memory_usage"
           }
         ]
       }
@@ -1317,60 +1134,6 @@
     ]
   },
   {
-    "name": "setivar_young_object",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "setivar_young_object_aarch64_execution_time"
-          },
-          {
-            "id": "setivar_young_object_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "setivar_young_object_x86_64_execution_time"
-          },
-          {
-            "id": "setivar_young_object_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "shipit",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "shipit_aarch64_execution_time"
-          },
-          {
-            "id": "shipit_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "shipit_x86_64_execution_time"
-          },
-          {
-            "id": "shipit_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "str_concat",
     "chart_groups": [
       {
@@ -1398,33 +1161,6 @@
     ]
   },
   {
-    "name": "sudoku",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "sudoku_aarch64_execution_time"
-          },
-          {
-            "id": "sudoku_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "sudoku_x86_64_execution_time"
-          },
-          {
-            "id": "sudoku_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "throw",
     "chart_groups": [
       {
@@ -1446,33 +1182,6 @@
           },
           {
             "id": "throw_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "tinygql",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "tinygql_aarch64_execution_time"
-          },
-          {
-            "id": "tinygql_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "tinygql_x86_64_execution_time"
-          },
-          {
-            "id": "tinygql_x86_64_memory_usage"
           }
         ]
       }
