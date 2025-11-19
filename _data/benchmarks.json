@@ -999,6 +999,33 @@
     ]
   },
   {
+    "name": "structaset",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "structaset_aarch64_execution_time"
+          },
+          {
+            "id": "structaset_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "structaset_x86_64_execution_time"
+          },
+          {
+            "id": "structaset_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "keyword_args",
     "chart_groups": [
       {
