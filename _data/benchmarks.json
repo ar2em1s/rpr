@@ -1213,5 +1213,32 @@
         ]
       }
     ]
+  },
+  {
+    "name": "gvl_release_acquire",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "gvl_release_acquire_aarch64_execution_time"
+          },
+          {
+            "id": "gvl_release_acquire_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "gvl_release_acquire_x86_64_execution_time"
+          },
+          {
+            "id": "gvl_release_acquire_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
   }
 ]
