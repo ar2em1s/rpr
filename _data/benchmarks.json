@@ -270,6 +270,33 @@
     ]
   },
   {
+    "name": "gcbench",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "gcbench_aarch64_execution_time"
+          },
+          {
+            "id": "gcbench_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "gcbench_x86_64_execution_time"
+          },
+          {
+            "id": "gcbench_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "erubi",
     "chart_groups": [
       {
@@ -696,6 +723,33 @@
           },
           {
             "id": "sudoku_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "splay",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "splay_aarch64_execution_time"
+          },
+          {
+            "id": "splay_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "splay_x86_64_execution_time"
+          },
+          {
+            "id": "splay_x86_64_memory_usage"
           }
         ]
       }
