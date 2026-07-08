@@ -756,6 +756,33 @@
     ]
   },
   {
+    "name": "string_malloc_pressure",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "string_malloc_pressure_aarch64_execution_time"
+          },
+          {
+            "id": "string_malloc_pressure_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "string_malloc_pressure_x86_64_execution_time"
+          },
+          {
+            "id": "string_malloc_pressure_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "tinygql",
     "chart_groups": [
       {
