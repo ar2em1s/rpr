@@ -702,33 +702,6 @@
     ]
   },
   {
-    "name": "sudoku",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "sudoku_aarch64_execution_time"
-          },
-          {
-            "id": "sudoku_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "sudoku_x86_64_execution_time"
-          },
-          {
-            "id": "sudoku_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "splay",
     "chart_groups": [
       {
@@ -750,6 +723,33 @@
           },
           {
             "id": "splay_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "sudoku",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "sudoku_aarch64_execution_time"
+          },
+          {
+            "id": "sudoku_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "sudoku_x86_64_execution_time"
+          },
+          {
+            "id": "sudoku_x86_64_memory_usage"
           }
         ]
       }
@@ -918,87 +918,6 @@
     ]
   },
   {
-    "name": "send_cfunc_block",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "send_cfunc_block_aarch64_execution_time"
-          },
-          {
-            "id": "send_cfunc_block_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "send_cfunc_block_x86_64_execution_time"
-          },
-          {
-            "id": "send_cfunc_block_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "send_rubyfunc_block",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "send_rubyfunc_block_aarch64_execution_time"
-          },
-          {
-            "id": "send_rubyfunc_block_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "send_rubyfunc_block_x86_64_execution_time"
-          },
-          {
-            "id": "send_rubyfunc_block_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "send_bmethod",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "send_bmethod_aarch64_execution_time"
-          },
-          {
-            "id": "send_bmethod_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "send_bmethod_x86_64_execution_time"
-          },
-          {
-            "id": "send_bmethod_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "fib",
     "chart_groups": [
       {
@@ -1053,60 +972,6 @@
     ]
   },
   {
-    "name": "structaref",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "structaref_aarch64_execution_time"
-          },
-          {
-            "id": "structaref_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "structaref_x86_64_execution_time"
-          },
-          {
-            "id": "structaref_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "structaset",
-    "chart_groups": [
-      {
-        "platform": "aarch64",
-        "charts": [
-          {
-            "id": "structaset_aarch64_execution_time"
-          },
-          {
-            "id": "structaset_aarch64_memory_usage"
-          }
-        ]
-      },
-      {
-        "platform": "x86_64",
-        "charts": [
-          {
-            "id": "structaset_x86_64_execution_time"
-          },
-          {
-            "id": "structaset_x86_64_memory_usage"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "keyword_args",
     "chart_groups": [
       {
@@ -1155,6 +1020,114 @@
           },
           {
             "id": "respond_to_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "send_bmethod",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "send_bmethod_aarch64_execution_time"
+          },
+          {
+            "id": "send_bmethod_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "send_bmethod_x86_64_execution_time"
+          },
+          {
+            "id": "send_bmethod_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "send_cfunc_block",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "send_cfunc_block_aarch64_execution_time"
+          },
+          {
+            "id": "send_cfunc_block_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "send_cfunc_block_x86_64_execution_time"
+          },
+          {
+            "id": "send_cfunc_block_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "send_rubyfunc_block",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "send_rubyfunc_block_aarch64_execution_time"
+          },
+          {
+            "id": "send_rubyfunc_block_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "send_rubyfunc_block_x86_64_execution_time"
+          },
+          {
+            "id": "send_rubyfunc_block_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "send_rubyfunc_inline",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "send_rubyfunc_inline_aarch64_execution_time"
+          },
+          {
+            "id": "send_rubyfunc_inline_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "send_rubyfunc_inline_x86_64_execution_time"
+          },
+          {
+            "id": "send_rubyfunc_inline_x86_64_memory_usage"
           }
         ]
       }
@@ -1263,6 +1236,60 @@
           },
           {
             "id": "str_concat_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "structaref",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "structaref_aarch64_execution_time"
+          },
+          {
+            "id": "structaref_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "structaref_x86_64_execution_time"
+          },
+          {
+            "id": "structaref_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "structaset",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "structaset_aarch64_execution_time"
+          },
+          {
+            "id": "structaset_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "structaset_x86_64_execution_time"
+          },
+          {
+            "id": "structaset_x86_64_memory_usage"
           }
         ]
       }
