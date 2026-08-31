@@ -864,6 +864,33 @@
     ]
   },
   {
+    "name": "30k_variables",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "30k_variables_aarch64_execution_time"
+          },
+          {
+            "id": "30k_variables_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "30k_variables_x86_64_execution_time"
+          },
+          {
+            "id": "30k_variables_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "attr_accessor",
     "chart_groups": [
       {
