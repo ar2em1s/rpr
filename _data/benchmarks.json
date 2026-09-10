@@ -405,6 +405,33 @@
     ]
   },
   {
+    "name": "grape",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "grape_aarch64_execution_time"
+          },
+          {
+            "id": "grape_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "grape_x86_64_execution_time"
+          },
+          {
+            "id": "grape_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "graphql",
     "chart_groups": [
       {
