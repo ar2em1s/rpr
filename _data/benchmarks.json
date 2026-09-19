@@ -945,6 +945,33 @@
     ]
   },
   {
+    "name": "block_methods",
+    "chart_groups": [
+      {
+        "platform": "aarch64",
+        "charts": [
+          {
+            "id": "block_methods_aarch64_execution_time"
+          },
+          {
+            "id": "block_methods_aarch64_memory_usage"
+          }
+        ]
+      },
+      {
+        "platform": "x86_64",
+        "charts": [
+          {
+            "id": "block_methods_x86_64_execution_time"
+          },
+          {
+            "id": "block_methods_x86_64_memory_usage"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "cfunc_itself",
     "chart_groups": [
       {
